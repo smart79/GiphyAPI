@@ -1,5 +1,5 @@
 // api key 7L0PmCx2IKcIhRD13KkcEZRYTcvtqefl
-var rmArray = ["Summer Smith", "Morty Smith", "Rick Sanchez", "Jerry Smith", "Beth Smith"];
+var rmArray = ["Morphius", "", "Lebowski", "Natural Born Killers", "Alrighty Then!", "I'll be back!"];
 
 $(document).ready(function() {
     for (var i = 0; i < rmArray.length; i++) {
@@ -21,7 +21,7 @@ function submitButtonClicked() {
 }
 function searchGif(gifName) {
     $.ajax({
-            url: 'https://api.giphy.com/v1/gifs/search?q= ' + gifName + " rick and morty"+ ' &api_key=7L0PmCx2IKcIhRD13KkcEZRYTcvtqefl&limit=9',
+            url: 'https://api.giphy.com/v1/gifs/search?q= ' + gifName + " 90s Movies" + ' &api_key=7L0PmCx2IKcIhRD13KkcEZRYTcvtqefl&limit=9',
             type: 'GET',
         })
         .done(function(response) {
