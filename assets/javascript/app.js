@@ -1,5 +1,5 @@
 // api key 7L0PmCx2IKcIhRD13KkcEZRYTcvtqefl
-var rmArray = ["Morphius", "", "Lebowski", "Natural Born Killers", "Alrighty Then!", "I'll be back!"];
+var rmArray = ["Morphius", "Pulp Fiction", "Lebowski", "Natural Born Killers", "Forrest Gump", "The Terminator"];
 
 $(document).ready(function() {
     for (var i = 0; i < rmArray.length; i++) {
