@@ -1,5 +1,5 @@
 // api key 7L0PmCx2IKcIhRD13KkcEZRYTcvtqefl
-var rmArray = ["Morphius", "Pulp Fiction", "Lebowski", "Natural Born Killers", "Forrest Gump", "The Terminator"];
+var rmArray = ["Morpheus", "Pulp Fiction", "Lebowski", "Natural Born Killers", "Forrest Gump", "The Terminator"];
 
 $(document).ready(function() {
     for (var i = 0; i < rmArray.length; i++) {
@@ -21,7 +21,7 @@ function submitButtonClicked() {
 }
 function searchGif(gifName) {
     $.ajax({
-            url: 'https://api.giphy.com/v1/gifs/search?q= ' + gifName + " 90s Movies" + ' &api_key=7L0PmCx2IKcIhRD13KkcEZRYTcvtqefl&limit=9',
+            url: 'https://api.giphy.com/v1/gifs/search?q= ' + gifName + " 1990s Movie" + ' &api_key=7L0PmCx2IKcIhRD13KkcEZRYTcvtqefl&limit=9',
             type: 'GET',
         })
         .done(function(response) {
